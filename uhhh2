@@ -1,0 +1,15 @@
+var word
+
+word = 'bird'
+
+console.log(word)
+
+word = 'dog'
+
+console.log(word)
+
+function speaker() {
+  var sentence = 'Bird is the word.';
+ 
+  console.log(sentence);
+}
