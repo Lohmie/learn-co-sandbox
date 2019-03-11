@@ -13,3 +13,47 @@ function speaker() {
  
   console.log(sentence);
 }
+
+learn test
+
+> javascript-fix-the-scope-lab@0.1.0 test /home/chatty-queue-8223/javascript-fix-the-scope-lab-bootcamp-prep-000
+> mocha -R mocha-multi --reporter-options nyan=-,json=.results.json
+
+ 3   -_,------,
+ 3   -_|   /\_/\
+ 0   -^|__( x .x)
+     -  ""  ""
+
+  3 passing (232ms)
+  3 failing
+
+  1) Fix the Scope yourAnimal() returns your animal:
+
+      Error: Expected 'dog' to equal 'cat'
+      + expected - actual
+
+      -dog
+      +cat
+
+      at assert (node_modules/expect/lib/assert.js:29:9)
+      at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)
+      at Context.<anonymous> (test/index-test.js:12:35)
+
+  2) Fix the Scope add2(n) adds two to n:
+
+      Error: Expected NaN to equal 58
+      + expected - actual
+
+      -NaN
+      +58
+
+      at assert (node_modules/expect/lib/assert.js:29:9)
+      at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)
+      at Context.<anonymous> (test/index-test.js:23:30)
+
+  3) Fix the Scope theFunk is "FUNKY!":
+     Error: Expected [Function: funkyFunction] to equal 'FUNKY!'
+      at assert (node_modules/expect/lib/assert.js:29:9)
+      at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)
+      at Context.<anonymous> (test/index-test.js:35:30)
+
